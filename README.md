@@ -3,21 +3,14 @@
 ## Usage
 
 ```
-yarn add --dev parcel-plugin-markdown
+npm install --save-dev parcel-plugin-marked
+```
+
+```
+yarn add --dev parcel-plugin-marked
 ```
 
 ```javascript
 import md from './Markdown.md';
 document.body.innerHTML = md;
-```
-
-```json
-// package.json
-// If you want to pass options to marked
-{
-    "name": "ABC",
-    "marked": {
-        "breaks": true
-    }
-}
 ```
