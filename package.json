@@ -1,6 +1,6 @@
 {
   "name": "parcel-plugin-marked",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "main": "index.js",
   "license": "MIT",
   "description": "Parcel plugin for markdown.",
@@ -10,11 +10,11 @@
     "url": "https://github.com/iERP-ai/parcel-plugin-markdown"
   },
   "dependencies": {
-    "marked": "^0.5.1",
-    "parcel-bundler": "^1.10.3"
+    "marked": "^0.7.0",
+    "parcel-bundler": "^1.12.4"
   },
   "devDependencies": {
-    "mocha": "^5.0.0"
+    "mocha": "^6.2.1"
   },
   "scripts": {
     "test": "mocha",
